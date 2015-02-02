@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset = "utf-8">
+   <title>Untitled</title>
+</head>
+
+<body>
+
+   <div class="l-wrapper">
+      <header class="l-header clearfix"> <!-- [?] основной логотип-opener в котексте этого шаблона идет как часть контента. Но. Намного проще его встроить в вёрстку, если встраивать через background-image. Как поступить правильно, пихать через img? -->
+         <nav class="navigation">
+            <ul>
+               <li>Информация</li>
+               <li>Фото и видео</li>
+               <li>Карта штата</li>
+               <li>Гостиницы</li>
+            </ul>
+         </nav>
+      </header>
+
+      <main class="l-container">
+         <h1>Седона - небольшой городок в аризоне,<br>
+            заслуживающий большего!</h1>
+         <div class="features">
+            <h2>Рассмотрим 5 причин, по которым седона круче чем Гранд Каньон!</h2>
+
+            <section class="l-container features">
+               <div class="solid">
+                  <strong>Настоящий<br> городок</strong> <!-- [?] Можно ли использовать b/strong вместо div? Как лучше? -->
+                  <p>– №1 –</p>
+                  <p>Седона не атракцион для туристов,<br> там течет своя жизнь</p>
+               </div>
+               <div class="preview">
+                  <img src="#">
+               </div>
+            </section>
+
+            <section class="l-container services">
+               <div>
+                  <img src="#">
+                  <strong>Жилье</strong>
+                  <p>Рекомендуем пожить в настоящем<br> мотеле, все как в кино!</p>
+               </div>
+               <div>
+                  <img src="#">
+                  <strong>Еда</strong>
+                  <p>Всегда заказывай фирменный бургер,<br> вы не разочаруетесь!</p>
+               </div>
+               <div>
+                  <img src="#">
+                  <strong>Сувениры</strong>
+                  <p>Не только китайского,<br> но и местного производства!</p>
+               </div>
+            </section>
+
+            <section class="l-container features">
+               <div class="preview">
+                  <img src="#">
+               </div>
+               <div class="solid">
+                  <strong>Там есть<br> мост дьявола</strong>
+                  <p>– №2 –</p>
+                  <p>Да, по нему можно пройти!<br> Если конечно вы осмелитесь</p>
+               </div>
+            </section>
+
+            <section class="l-container services">
+               <div>
+                  <strong>Небольшая<br> площадь</strong>
+                  <p>– №3 –</p>
+                  <p>Все достопримеча-
+                     <br>тельности находятся очень близко
+                  </p>
+               </div>
+               <div>
+                  <strong>Красивая<br> дорога</strong>
+                  <p>– №4 –</p>
+                  <p>Ехать в седону из Лас-Вегаса совсем
+                     <br>не скучно!
+                  </p>
+               </div>
+               <div>
+                  <strong>Мало<br> туристов</strong>
+                  <p>– №5 –</p>
+                  <p>
+                     Большинство едет в Гранд Каньон и<br>толпится там
+                  </p>
+               </div>
+            </section>
+         </div>
+         <div class="offer">
+            <strong>Заинтересовались?</strong>
+            <p>
+               Укажите предполагаемые даты поездки<br>
+               и мы покажем вам лучшие предложения гостиниц в седоне
+            </p>
+            <a href="#">
+               Поиск гостиницы в седоне
+            </a>
+         </div>
+         <div class="map">
+            <img src="#" alt="Google map">
+         </div>
+      </main>
+
+      <footer class="l-footer clearfix">
+         <section class="hash">
+            <b>#Visitsedona</b>
+         </section>
+         <section class="socials">
+            <div class="tw"></div>
+            <div class="fb"></div>
+            <div class="yt"></div>
+         </section>
+         <section class="copyright">
+            <p>
+               Website by <img src="#">
+               for <img src="#">
+            </p>
+         </section>
+      </footer>
+   </div>
+</body>
+</html>
+
+   легенда:
+      l-container  означает "layout-container", но я пишу сокращенно, чтоб уменьшить код, прочее.
+
+    - на body можно вешать дополнительные кастомные стили?
+    - logo лучше делать через image/figure или background-image?
+    - текст на фоне логотипа нужно текстами делать или это встроено в картинку? (пока сделал как встроенное)
+    - в селекторах лучше обращаться к дочерним элементам через псевдоклассы или лучше дописывать в html код классы и обращаться к классам?
