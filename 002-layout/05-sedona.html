@@ -2,14 +2,14 @@
 <html>
 <head>
    <meta charset = "utf-8">
-   <title>Untitled</title>
+   <title>Task</title>
 </head>
 
 <body>
 
    <div class="l-wrapper">
-      <header class="l-header clearfix"> <!-- [?] основной логотип-opener в котексте этого шаблона идет как часть контента. Но. Намного проще его встроить в вёрстку, если встраивать через background-image. Как поступить правильно, пихать через img? -->
-         <nav class="navigation">
+      <header class="l-header  clearfix"> <!-- [?] основной логотип-opener в котексте этого шаблона идет как часть контента. Но. Намного проще его встроить в вёрстку, если встраивать через background-image. Как поступить правильно, пихать через img? -->
+         <nav class="menu">
             <ul>
                <li>Информация</li>
                <li>Фото и видео</li>
@@ -21,13 +21,13 @@
 
       <main class="l-container">
          <h1>Седона - небольшой городок в аризоне,<br>
-            заслуживающий большего!</h1>
+             заслуживающий большего!</h1>
          <div class="features">
-            <h2>Рассмотрим 5 причин, по которым седона круче чем Гранд Каньон!</h2>
+            <strong>Рассмотрим 5 причин, по которым седона круче чем Гранд Каньон!</strong>
 
-            <section class="l-container features">
+            <section class="l-container  features">
                <div class="solid">
-                  <strong>Настоящий<br> городок</strong> <!-- [?] Можно ли использовать b/strong вместо div? Как лучше? -->
+                  <div>Настоящий<br> городок</div> <!-- [?] Можно ли использовать b/strong вместо div? Как лучше? -->
                   <p>– №1 –</p>
                   <p>Седона не атракцион для туристов,<br> там течет своя жизнь</p>
                </div>
@@ -36,7 +36,7 @@
                </div>
             </section>
 
-            <section class="l-container services">
+            <section class="l-container  services">
                <div>
                   <img src="#">
                   <strong>Жилье</strong>
@@ -54,18 +54,18 @@
                </div>
             </section>
 
-            <section class="l-container features">
+            <section class="l-container  features">
                <div class="preview">
                   <img src="#">
                </div>
                <div class="solid">
-                  <strong>Там есть<br> мост дьявола</strong>
+                  <div>Там есть<br> мост дьявола</div>
                   <p>– №2 –</p>
                   <p>Да, по нему можно пройти!<br> Если конечно вы осмелитесь</p>
                </div>
             </section>
 
-            <section class="l-container services">
+            <section class="l-container  services">
                <div>
                   <strong>Небольшая<br> площадь</strong>
                   <p>– №3 –</p>
@@ -104,7 +104,7 @@
          </div>
       </main>
 
-      <footer class="l-footer clearfix">
+      <footer class="l-footer">
          <section class="hash">
             <b>#Visitsedona</b>
          </section>
@@ -123,11 +123,3 @@
    </div>
 </body>
 </html>
-
-   легенда:
-      l-container  означает "layout-container", но я пишу сокращенно, чтоб уменьшить код, прочее.
-
-    - на body можно вешать дополнительные кастомные стили?
-    - logo лучше делать через image/figure или background-image?
-    - текст на фоне логотипа нужно текстами делать или это встроено в картинку? (пока сделал как встроенное)
-    - в селекторах лучше обращаться к дочерним элементам через псевдоклассы или лучше дописывать в html код классы и обращаться к классам?
