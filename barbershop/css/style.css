@@ -1,0 +1,109 @@
+/*------------------------------------*\
+		CONTENTS
+\*------------------------------------*/
+/*
+SHARED			Share anything we can across elements.
+GENERAL			HTML, BODY, etc.
+HEADER
+MAIN
+FOOTER
+*/
+
+/* ==========================================================================
+   $SHARED
+   ========================================================================== */
+
+.container {
+    width: 1362px;
+    margin: 0 auto;
+}
+
+.clearfix {
+    display: table;
+    clear: both;
+    content: "";
+}
+
+/*
+ * eof $SHARED
+ */
+
+/* ==========================================================================
+   $HEADER
+   ========================================================================== */
+
+.navigation {
+    float: left;
+    height: 64px;
+}
+
+.user-block {
+    float: right;
+    height: 64px;
+}
+
+/*
+ * eof $HEADER
+ */
+
+/* ==========================================================================
+   $MAIN
+   ========================================================================== */
+.breadcrumbs {
+  margin: 52px 0;
+}
+
+.features {
+  float: left;
+  width: 400px;
+  min-height: 190px;
+  margin-top: 62px;
+  margin-bottom: 62px;
+}
+
+.prices {
+  float: right;
+  width: 400px;
+  min-height: 190px;
+  margin-bottom: 62px;
+}
+
+.about {
+  clear: both;
+  margin-bottom: 72px;
+}
+
+.about-p1 {
+  float: left;
+  width: 400px;
+}
+
+.about-p2 {
+  float: right;
+  width: 400px;
+}
+
+/*
+ * eof $MAIN
+ */
+
+/* ==========================================================================
+   $FOOTER
+   ========================================================================== */
+
+.address {
+  float: left;
+}
+
+.socials {
+  float: left;
+  margin-right: 80px;
+}
+
+.copyright {
+  float: right;
+}
+
+/*
+ * eof $FOOTER
+ */
